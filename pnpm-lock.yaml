@@ -12,8 +12,8 @@ importers:
         specifier: ^24.2.3
         version: 24.2.3
       semantic-release-pnpm:
-        specifier: github:gdostie/semantic-release-pnpm
-        version: git+https://git@github.com:gdostie/semantic-release-pnpm.git#6d0672dbbc62cca51192545331f96a208e1ca4c8(semantic-release@24.2.3)
+        specifier: https://codeload.github.com/gdostie/semantic-release-pnpm/legacy.tar.gz/refs/heads/main
+        version: https://codeload.github.com/gdostie/semantic-release-pnpm/legacy.tar.gz/refs/heads/main(semantic-release@24.2.3)
 
 packages:
 
@@ -925,8 +925,8 @@ packages:
   safe-buffer@5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
 
-  semantic-release-pnpm@git+https://git@github.com:gdostie/semantic-release-pnpm.git#6d0672dbbc62cca51192545331f96a208e1ca4c8:
-    resolution: {commit: 6d0672dbbc62cca51192545331f96a208e1ca4c8, repo: git@github.com:gdostie/semantic-release-pnpm.git, type: git}
+  semantic-release-pnpm@https://codeload.github.com/gdostie/semantic-release-pnpm/legacy.tar.gz/refs/heads/main:
+    resolution: {tarball: https://codeload.github.com/gdostie/semantic-release-pnpm/legacy.tar.gz/refs/heads/main}
     version: 0.0.0
     peerDependencies:
       semantic-release: ^24.2.3
@@ -2002,7 +2002,7 @@ snapshots:
 
   safe-buffer@5.1.2: {}
 
-  semantic-release-pnpm@git+https://git@github.com:gdostie/semantic-release-pnpm.git#6d0672dbbc62cca51192545331f96a208e1ca4c8(semantic-release@24.2.3):
+  semantic-release-pnpm@https://codeload.github.com/gdostie/semantic-release-pnpm/legacy.tar.gz/refs/heads/main(semantic-release@24.2.3):
     dependencies:
       semantic-release: 24.2.3
 
